@@ -32,7 +32,6 @@
   color: #bebebe;
   font-family: sans-serif;
   font-weight: bold;
-  position: relative;
   float: left;
   padding-top: 10px;
 }
@@ -65,13 +64,13 @@
 }
 
 .authors {
-padding-left: 6px;
-padding-top: 2px;
-float: right;
-text-align: right;
+  padding-left: 6px;
+  padding-top: 2px;
+  float: right;
+  text-align: right;
 }
 
-.image-footer:before {
+.octocat:after {
   content: "";
   width: 0;
   height: 0;
@@ -79,7 +78,7 @@ text-align: right;
   border-width: 8px 7.5px 0 7.5px;
   border-color: #bebebe transparent transparent transparent;
   position: absolute;
-
+  margin-left: 320px;
 }
 
 
