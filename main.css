@@ -9,8 +9,8 @@
   max-width: 31%;
   display: inline-block;
   margin: 10px;
-  padding-bottom: 38px;
-  border-bottom: 1px solid #bebebe;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #bebebe
 }
 
 .octocat img {
@@ -21,19 +21,9 @@
   margin-right: auto;
 }
 
-.octocat:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 8px 7.5px 0 7.5px;
-  border-color: #bebebe transparent transparent transparent;
-  float: right;
-}
-
 .image-footer {
-  position: absolute;
-  padding-top: 8px;
+  text-align: right;
+  margin-top: -4px;
 }
 
 .image-footer img {
@@ -46,6 +36,7 @@
   font-weight: bold;
   position: relative;
   float: left;
+  padding-top: 10px;
 }
 
 .image-number:before {
@@ -55,6 +46,8 @@
 .image-caption {
   display: inline-block;
   margin-left: 30px;
+  padding-top: 10px;
+  float: right;
 }
 
 .image-caption span {
@@ -70,13 +63,24 @@
   font-family: sans-serif;
   font-weight: bold;
   font-size: 14px;
-  position: relative;
+  text-align: right;
 }
 
 .authors {
-padding-left: 80px;
+padding-left: 6px;
 padding-top: 2px;
- float: right;
+float: right;
+text-align: right;
+}
+
+.image-footer:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 7.5px 0 7.5px;
+  border-color: #bebebe transparent transparent transparent;
+  float: right;
 }
 
 
