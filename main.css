@@ -2,7 +2,10 @@
  max-width: 100%;
  margin-left: auto;
  margin-right: 25px;
- color: white;
+}
+
+.octodex ul {
+   list-style: none;
 }
 
 .octocat {
@@ -10,7 +13,7 @@
   display: inline-block;
   margin: 10px;
   padding-bottom: 4px;
-  border-bottom: 1px solid #bebebe
+  border-bottom: 1px solid #bebebe;
 }
 
 .octocat img {
@@ -66,8 +69,8 @@
 .authors {
   padding-left: 6px;
   padding-top: 2px;
-  float: right;
-  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .octocat:after {
